@@ -1,0 +1,340 @@
+import React from 'react';
+import { 
+  Cloud, 
+  Shield, 
+  Terminal, 
+  Briefcase, 
+  GraduationCap, 
+  ChevronDown,
+  Github,
+  Linkedin,
+  Mail,
+  Award,
+  Code,
+  User
+} from 'lucide-react';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-900 text-gray-100">
+      {/* Hero Section */}
+      <header className="min-h-screen flex items-center justify-center relative overflow-hidden">
+        {/* Animated background gradients */}
+        <div className="absolute inset-0 bg-gray-900">
+          <div className="absolute inset-0 opacity-30">
+            <div className="absolute top-0 -left-4 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
+            <div className="absolute top-0 -right-4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
+            <div className="absolute -bottom-8 left-20 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
+          </div>
+        </div>
+
+        <div className="relative z-10 container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="inline-flex p-4 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700 mb-8">
+                <Shield className="w-8 h-8 text-purple-400 mr-3" />
+                <Cloud className="w-8 h-8 text-blue-400" />
+              </div>
+              <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 animate-gradient">
+                  System Engineer
+                </span>
+              </h1>
+              <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-2xl mx-auto">
+                Architecting secure and scalable cloud solutions. 
+                <span className="block mt-2">Transforming complex challenges into elegant systems.</span>
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+              <a 
+                href="#contact" 
+                className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white rounded-lg font-medium text-lg transition-all duration-300 transform hover:scale-105 text-center"
+              >
+                Get in Touch
+              </a>
+              <a 
+                href="#expertise" 
+                className="w-full sm:w-auto px-8 py-4 bg-gray-800/50 backdrop-blur-sm border border-gray-700 hover:bg-gray-700/50 rounded-lg font-medium text-lg transition-all duration-300 transform hover:scale-105 text-center"
+              >
+                View Expertise
+              </a>
+            </div>
+
+            <div className="mt-16 grid grid-cols-3 gap-6 max-w-2xl mx-auto text-center">
+              <div className="p-4 rounded-lg bg-gray-800/50 backdrop-blur-sm border border-gray-700">
+                <p className="text-3xl font-bold text-blue-400 mb-1">10+</p>
+                <p className="text-sm text-gray-400">Years Experience</p>
+              </div>
+              <div className="p-4 rounded-lg bg-gray-800/50 backdrop-blur-sm border border-gray-700">
+                <p className="text-3xl font-bold text-purple-400 mb-1">50+</p>
+                <p className="text-sm text-gray-400">Projects Delivered</p>
+              </div>
+              <div className="p-4 rounded-lg bg-gray-800/50 backdrop-blur-sm border border-gray-700">
+                <p className="text-3xl font-bold text-blue-400 mb-1">3+</p>
+                <p className="text-sm text-gray-400">Cloud Certifications</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+          <ChevronDown className="w-8 h-8 text-gray-400" />
+        </div>
+      </header>
+
+      {/* About Me Section */}
+      <section id="about" className="py-20 bg-gray-800">
+        <div className="container mx-auto px-6">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-block p-4 rounded-full bg-gray-700 mb-6">
+              <User className="w-8 h-8 text-purple-400" />
+            </div>
+            <h2 className="text-3xl font-bold mb-8">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+                Who I Am
+              </span>
+            </h2>
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+              A passionate System Engineer with a drive for building secure, scalable infrastructure solutions.
+              I thrive on solving complex technical challenges and leading teams toward innovative solutions.
+              When I'm not architecting systems, you'll find me exploring new technologies and mentoring
+              upcoming engineers.
+            </p>
+            <div className="flex justify-center gap-4 flex-wrap">
+              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-blue-400">Problem Solver</span>
+              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-purple-400">Team Leader</span>
+              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-blue-400">Tech Enthusiast</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Experience Section */}
+      <section id="experience" className="py-20 bg-gray-900">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold mb-12 text-center">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+              Professional Journey
+            </span>
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="relative border-l-2 border-gray-700 pl-8 ml-4">
+              <div className="mb-12 relative">
+                <div className="absolute -left-14 p-2 bg-gray-900 border-2 border-purple-500 rounded-full">
+                  <Briefcase className="w-6 h-6 text-purple-400" />
+                </div>
+                <div className="bg-gray-800 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-blue-400">Senior System Engineer</h3>
+                  <p className="text-gray-400 mb-2">Company Name • 2020 - Present</p>
+                  <p className="text-gray-300 mb-4">
+                    Led cloud infrastructure initiatives and implemented security best practices across enterprise systems.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">AWS</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Azure</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Kubernetes</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="mb-12 relative">
+                <div className="absolute -left-14 p-2 bg-gray-900 border-2 border-blue-500 rounded-full">
+                  <Briefcase className="w-6 h-6 text-blue-400" />
+                </div>
+                <div className="bg-gray-800 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-purple-400">System Engineer</h3>
+                  <p className="text-gray-400 mb-2">Previous Company • 2018 - 2020</p>
+                  <p className="text-gray-300 mb-4">
+                    Managed cloud infrastructure and implemented security protocols for enterprise clients.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Docker</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Jenkins</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Linux</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Skills & Certifications Section */}
+      <section className="py-20 bg-gray-800">
+        <div className="container mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Technical Skills */}
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <Code className="w-8 h-8 text-blue-400" />
+                <h2 className="text-2xl font-bold">
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+                    Technical Skills
+                  </span>
+                </h2>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h3 className="font-semibold mb-3 text-blue-400">Cloud Platforms</h3>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>AWS</li>
+                    <li>Azure</li>
+                    <li>Google Cloud</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h3 className="font-semibold mb-3 text-purple-400">Security</h3>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>IAM</li>
+                    <li>Network Security</li>
+                    <li>Compliance</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h3 className="font-semibold mb-3 text-blue-400">Infrastructure</h3>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>Kubernetes</li>
+                    <li>Docker</li>
+                    <li>Terraform</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h3 className="font-semibold mb-3 text-purple-400">DevOps</h3>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>CI/CD</li>
+                    <li>Monitoring</li>
+                    <li>Automation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Certifications */}
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <Award className="w-8 h-8 text-purple-400" />
+                <h2 className="text-2xl font-bold">
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+                    Certifications
+                  </span>
+                </h2>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-900 p-4 rounded-lg flex items-start gap-4">
+                  <Award className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                  <div>
+                    <h3 className="font-semibold text-blue-400">AWS Solutions Architect Professional</h3>
+                    <p className="text-gray-400">Amazon Web Services • 2023</p>
+                  </div>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg flex items-start gap-4">
+                  <Award className="w-6 h-6 text-purple-400 flex-shrink-0 mt-1" />
+                  <div>
+                    <h3 className="font-semibold text-purple-400">Azure Security Engineer Associate</h3>
+                    <p className="text-gray-400">Microsoft • 2022</p>
+                  </div>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg flex items-start gap-4">
+                  <Award className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                  <div>
+                    <h3 className="font-semibold text-blue-400">Certified Kubernetes Administrator</h3>
+                    <p className="text-gray-400">Cloud Native Computing Foundation • 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Expertise Section */}
+      <section id="expertise" className="py-20 bg-gray-900">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold mb-12 text-center">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+              Core Expertise
+            </span>
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="p-6 rounded-lg bg-gray-800 border border-gray-700 hover:border-purple-500 transition-colors">
+              <Cloud className="w-12 h-12 text-blue-400 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Cloud Architecture</h3>
+              <p className="text-gray-400">Designing and implementing scalable cloud solutions with focus on AWS and Azure.</p>
+            </div>
+            <div className="p-6 rounded-lg bg-gray-800 border border-gray-700 hover:border-purple-500 transition-colors">
+              <Shield className="w-12 h-12 text-purple-400 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Security</h3>
+              <p className="text-gray-400">Implementing robust security measures and best practices for enterprise systems.</p>
+            </div>
+            <div className="p-6 rounded-lg bg-gray-800 border border-gray-700 hover:border-purple-500 transition-colors">
+              <Terminal className="w-12 h-12 text-blue-400 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">System Engineering</h3>
+              <p className="text-gray-400">Building and maintaining complex infrastructure and system architectures.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Career Goals Section */}
+      <section id="goals" className="py-20 bg-gray-800">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold mb-12 text-center">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+              Career Trajectory
+            </span>
+          </h2>
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-start gap-6 mb-12">
+              <div className="flex-shrink-0">
+                <Briefcase className="w-8 h-8 text-purple-400" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Management Aspirations</h3>
+                <p className="text-gray-400">
+                  Transitioning towards technical leadership and management roles, focusing on team development
+                  and strategic technology implementation.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start gap-6">
+              <div className="flex-shrink-0">
+                <GraduationCap className="w-8 h-8 text-blue-400" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Continuous Learning</h3>
+                <p className="text-gray-400">
+                  Pursuing advanced certifications and developing leadership skills through professional development programs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-20 bg-gray-900">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-3xl font-bold mb-8">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+              Let's Connect
+            </span>
+          </h2>
+          <div className="flex justify-center gap-6">
+            <a href="#" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
+              <Github className="w-6 h-6" />
+            </a>
+            <a href="#" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
+              <Linkedin className="w-6 h-6" />
+            </a>
+            <a href="#" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
+              <Mail className="w-6 h-6" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default App;
