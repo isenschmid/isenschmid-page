@@ -130,15 +130,17 @@ function App() {
                   <Briefcase className="w-6 h-6 text-purple-400" />
                 </div>
                 <div className="bg-gray-800 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-blue-400">Senior System Engineer</h3>
-                  <p className="text-gray-400 mb-2">Company Name • 2020 - Present</p>
+                  <h3 className="text-xl font-semibold text-blue-400">Co-Founder & COO</h3>
+                  <p className="text-gray-400 mb-2">SWISSNAND • 2024 - Heute</p>
                   <p className="text-gray-300 mb-4">
-                    Led cloud infrastructure initiatives and implemented security best practices across enterprise systems.
+                    Erstellen einer digitalen Online-Präsenz für KMUs mit Fokus auf den Kanton Bern.
+                    Digitalisierung eines Unternehmens. Steigerung der Effienz durch unsere Plattform.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">AWS</span>
-                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Azure</span>
-                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Kubernetes</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">GoHighLevel</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Microsoft 365</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Unternehmensführung</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Teamleitung</span>
                   </div>
                 </div>
               </div>
@@ -151,7 +153,7 @@ function App() {
                   <h3 className="text-xl font-semibold text-purple-400">System Engineer</h3>
                   <p className="text-gray-400 mb-2">CompuTech Informatik AG • 2021 - Heute</p>
                   <p className="text-gray-300 mb-4">
-                    Betreuen der Zugriffs- und Sicherheitsinfrastruktur der Private- sowie Public Cloud.
+                    Betreuen der Zugriffs- und Sicherheitsinfrastruktur der Private & Public Cloud.
                     Implementierung von Microsoft 365 Lösungen für personalisierte Kundenbedürfnisse.
                     Verwaltung und Administration der Webserver Infrastruktur.
                     Implementierung und Überwachung von Backup Lösungen.
@@ -191,17 +193,17 @@ function App() {
                 <Code className="w-8 h-8 text-blue-400" />
                 <h2 className="text-2xl font-bold">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                    Technical Skills
+                    Technische Fähigkeiten
                   </span>
                 </h2>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-gray-900 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-3 text-blue-400">Cloud Platforms</h3>
+                  <h3 className="font-semibold mb-3 text-blue-400">Cloud Technologien</h3>
                   <ul className="space-y-2 text-gray-300">
-                    <li>AWS</li>
+                    <li>Citrix</li>
                     <li>Azure</li>
-                    <li>Google Cloud</li>
+                    <li>Microsoft 365</li>
                   </ul>
                 </div>
                 <div className="bg-gray-900 p-4 rounded-lg">
@@ -213,19 +215,19 @@ function App() {
                   </ul>
                 </div>
                 <div className="bg-gray-900 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-3 text-blue-400">Infrastructure</h3>
+                  <h3 className="font-semibold mb-3 text-blue-400">Infrastruktur</h3>
                   <ul className="space-y-2 text-gray-300">
-                    <li>Kubernetes</li>
+                    <li>Hyper-V</li>
                     <li>Docker</li>
-                    <li>Terraform</li>
+                    <li></li>
                   </ul>
                 </div>
                 <div className="bg-gray-900 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-3 text-purple-400">DevOps</h3>
+                  <h3 className="font-semibold mb-3 text-purple-400">Projektmanagement</h3>
                   <ul className="space-y-2 text-gray-300">
-                    <li>CI/CD</li>
-                    <li>Monitoring</li>
-                    <li>Automation</li>
+                    <li>Scoping und Planung</li>
+                    <li>Kommunikation</li>
+                    <li>Führungsstärke</li>
                   </ul>
                 </div>
               </div>
@@ -237,7 +239,7 @@ function App() {
                 <Award className="w-8 h-8 text-purple-400" />
                 <h2 className="text-2xl font-bold">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                    Certifications
+                    Zertifizierungen
                   </span>
                 </h2>
               </div>
@@ -245,22 +247,8 @@ function App() {
                 <div className="bg-gray-900 p-4 rounded-lg flex items-start gap-4">
                   <Award className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-blue-400">AWS Solutions Architect Professional</h3>
-                    <p className="text-gray-400">Amazon Web Services • 2023</p>
-                  </div>
-                </div>
-                <div className="bg-gray-900 p-4 rounded-lg flex items-start gap-4">
-                  <Award className="w-6 h-6 text-purple-400 flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="font-semibold text-purple-400">Azure Security Engineer Associate</h3>
-                    <p className="text-gray-400">Microsoft • 2022</p>
-                  </div>
-                </div>
-                <div className="bg-gray-900 p-4 rounded-lg flex items-start gap-4">
-                  <Award className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="font-semibold text-blue-400">Certified Kubernetes Administrator</h3>
-                    <p className="text-gray-400">Cloud Native Computing Foundation • 2022</p>
+                    <h3 className="font-semibold text-blue-400">Microsoft Certified: Azure Fundamentals</h3>
+                    <p className="text-gray-400">Microsoft • 2023</p>
                   </div>
                 </div>
               </div>
