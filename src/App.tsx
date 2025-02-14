@@ -42,8 +42,7 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-2xl mx-auto">
-                Massgeschneiderte, Kundenorientierte IT Lösungen.
-                <span className="block mt-2">Umsetzung von komplexen Herausforderungen in elegante Lösungen.</span>
+                Zäziwil, Bern, Schweiz
               </p>
             </div>
 
