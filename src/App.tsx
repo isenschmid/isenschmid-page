@@ -100,10 +100,16 @@ function App() {
               Ich lege grossen Wert auf Kommunikation und Miteinbeziehung des Kunden in meine Projekte - In meinem Arbeitsumfeld steht der Kunde immer an erster Stelle. Seine Zufriedenheit ist mein grösster Erfolg!
               Wenn ich nicht gerade Projekte realisiere, erkunde ich neue Technologien und vertiefe mein Wissen.
             </p>
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+              Aufgewachsen bin ich in meiner schönen Heimat Zäzwil, in welcher ich bis heute noch lebe. 
+              Nach meiner obligatorischen Schulzeit, welche ich in Zäzwil und für die Sekundarschule in Grosshöchstetten, absolviert habe, habe ich in Zollbrück meine Ausbildung zum Informatiker EFZ Plattformentwicklung gemacht.
+              In meiner Freizeit beschäftige ich mich gerne mit neuen Technologien im Microsoft 365 und Security Bereich. 
+              Wenn ich nicht gerade vor dem PC sitze, begebe ich mich gerne in die Natur des Emmental und gehe gerne wandern oder verfolge mein langjähriges Hobby - das Hornussen.
+            </p>
             <div className="flex justify-center gap-4 flex-wrap">
-              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-blue-400">Problem Solver</span>
-              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-purple-400">Team Leader</span>
-              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-blue-400">Tech Enthusiast</span>
+              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-blue-400">Kundenorientiert</span>
+              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-purple-400">Kompetent</span>
+              <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-blue-400">Technik Enthusiast</span>
             </div>
           </div>
         </div>
@@ -114,7 +120,7 @@ function App() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-12 text-center">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-              Professional Journey
+              Mein beruflicher Werdegang
             </span>
           </h2>
           <div className="max-w-4xl mx-auto">
@@ -143,14 +149,30 @@ function App() {
                 </div>
                 <div className="bg-gray-800 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-purple-400">System Engineer</h3>
-                  <p className="text-gray-400 mb-2">Previous Company • 2018 - 2020</p>
+                  <p className="text-gray-400 mb-2">CompuTech Informatik AG • 2021 - Heute</p>
                   <p className="text-gray-300 mb-4">
-                    Managed cloud infrastructure and implemented security protocols for enterprise clients.
+                    Betreuen der Zugriffs- und Sicherheitsinfrastruktur der Private- sowie Public Cloud.
+                    Implementierung von Microsoft 365 Lösungen für personalisierte Kundenbedürfnisse.
+                    Verwaltung und Administration der Webserver Infrastruktur.
+                    Implementierung und Überwachung von Backup Lösungen.
+                    Monitoring von Netzwerkinfrastrukturen.
+                    Support und Kundenbetreuung.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Docker</span>
-                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Jenkins</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Microsoft 365</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Azure</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">PowerShell</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Citrix</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Windows Server</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Hyper-V</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">SCVMM & SCCM</span>
                     <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Linux</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Plesk</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Barracuda</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Paessler PRTG</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Hornetsecurity</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">Redstor</span>
+                    <span className="px-3 py-1 bg-gray-700 rounded-full text-sm">MSP360</span>
                   </div>
                 </div>
               </div>
