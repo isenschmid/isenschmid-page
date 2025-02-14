@@ -11,7 +11,8 @@ import {
   Mail,
   Award,
   Code,
-  User
+  User,
+  Handshake
 } from 'lucide-react';
 
 function App() {
@@ -262,24 +263,25 @@ function App() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-12 text-center">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-              Core Expertise
+              Kernkompetenzen
             </span>
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-6 rounded-lg bg-gray-800 border border-gray-700 hover:border-purple-500 transition-colors">
               <Cloud className="w-12 h-12 text-blue-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Cloud Architecture</h3>
-              <p className="text-gray-400">Designing and implementing scalable cloud solutions with focus on AWS and Azure.</p>
+              
+              <h3 className="text-xl font-semibold mb-2">System Engineering</h3>
+              <p className="text-gray-400">Planung, Design und Umsetzung von massgeschneiderten Lösungen, welche den Anforderungen des Kunden entsprechen.</p>
             </div>
             <div className="p-6 rounded-lg bg-gray-800 border border-gray-700 hover:border-purple-500 transition-colors">
               <Shield className="w-12 h-12 text-purple-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Security</h3>
-              <p className="text-gray-400">Implementing robust security measures and best practices for enterprise systems.</p>
+              <p className="text-gray-400">Implementierung von robusten Sicherheitsrichtlinien für Kundensysteme.</p>
             </div>
             <div className="p-6 rounded-lg bg-gray-800 border border-gray-700 hover:border-purple-500 transition-colors">
-              <Terminal className="w-12 h-12 text-blue-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">System Engineering</h3>
-              <p className="text-gray-400">Building and maintaining complex infrastructure and system architectures.</p>
+              <Handshake className="w-12 h-12 text-blue-400 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Kundenbetreuung</h3>
+              <p className="text-gray-400">Verwaltung und Betreuung von Kunden mit einer offenen und unkomplizierten Art. Planung, Koordination und Umsetzung deren Projekte.</p>
             </div>
           </div>
         </div>
@@ -290,7 +292,7 @@ function App() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-12 text-center">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-              Career Trajectory
+              Karriereaussichten
             </span>
           </h2>
           <div className="max-w-3xl mx-auto">
@@ -299,10 +301,9 @@ function App() {
                 <Briefcase className="w-8 h-8 text-purple-400" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Management Aspirations</h3>
+                <h3 className="text-xl font-semibold mb-2">Management Anstrebungen</h3>
                 <p className="text-gray-400">
-                  Transitioning towards technical leadership and management roles, focusing on team development
-                  and strategic technology implementation.
+                  Übergang zu technischen Führungs- und Managementrollen mit Schwerpunkt auf Teamleitung, Projektmanagement und strategischer Technologieimplementierung.
                 </p>
               </div>
             </div>
@@ -311,9 +312,10 @@ function App() {
                 <GraduationCap className="w-8 h-8 text-blue-400" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Continuous Learning</h3>
+                <h3 className="text-xl font-semibold mb-2">Kontinuierliche Wissensaneignung</h3>
                 <p className="text-gray-400">
-                  Pursuing advanced certifications and developing leadership skills through professional development programs.
+                  Absolvieren von zusätzlichen Zertifizierungen in technischen Bereichen vorallem in Microsoft 365 Security.
+                  Absolvieren von Zertifizierungen in Teamleading und Projektmanagement Bereichen, sowie in Bereichen der Unternehmensführung.
                 </p>
               </div>
             </div>
@@ -326,17 +328,17 @@ function App() {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-8">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-              Let's Connect
+              Kontaktiere mich
             </span>
           </h2>
           <div className="flex justify-center gap-6">
-            <a href="#" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
+            <a href="https://github.com/isenschmid" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
+            <a href="https://www.linkedin.com/in/noah-isenschmid-b86041251" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="#" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
+            <a href="mailto:noah@isenschmids.swiss" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>
