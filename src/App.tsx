@@ -96,8 +96,8 @@ function App() {
               </span>
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Ein leidenschaftlicher Informatiker mit dem Antrieb, sichere, massgeschneiderte Infrastruktur Lösungen für den Kunden zu entwickeln.
-              Ich lege grossen Wert auf Kommunikation und Miteinbeziehung des Kunden in meine Projekte - In meinem Arbeitsumfeld steht der Kunde immer an erster Stelle. Seine Zufriedenheit ist mein grösster Erfolg!
+              Ein leidenschaftlicher Informatiker mit dem Antrieb, sichere, massgeschneiderte Infrastruktur- & Cloudlösungen für den Kunden zu entwickeln.
+              Ich lege grossen Wert auf Kommunikation und Miteinbeziehung des Kunden in meine Projekte - in meinem Arbeitsumfeld steht der Kunde immer an erster Stelle. Seine Zufriedenheit ist mein grösster Erfolg!
               Wenn ich nicht gerade Projekte realisiere, erkunde ich neue Technologien und vertiefe mein Wissen.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
