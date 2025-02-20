@@ -337,7 +337,7 @@ function App() {
             <a href="https://www.linkedin.com/in/noah-isenschmid-b86041251" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:noah@isenschmids.swiss" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
+            <a href="mailto:noah@isenschmid.swiss" className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>
