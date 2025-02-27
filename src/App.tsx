@@ -42,7 +42,7 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-2xl mx-auto">
-                Zäziwil, Bern, Schweiz
+                Zäziwil, Bern, Schweiz, Hallo Andrin
               </p>
             </div>
 
